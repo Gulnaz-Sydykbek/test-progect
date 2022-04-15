@@ -1,0 +1,99 @@
+.design,
+.manadges {
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1120px) {
+        margin-bottom: 100px;
+    }
+}
+
+.marketers {
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1120px) {
+        margin-bottom: 157px;
+    }
+}
+
+.common-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.common-left-container {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #544837;
+
+    @media screen and (min-width: 768px) {
+        width: 486px;
+    }
+}
+
+.common-top-container {
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1120px) {
+        margin-bottom: 30px;
+    }
+}
+
+.common-description {
+    margin-bottom: 3px;
+}
+
+.common-title {
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #2F281E;
+
+    @media screen and (min-width: 1120px) {
+        font-size: 36px;
+        margin-bottom: 22px;
+    }
+}
+
+.commom-list li {
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 1120px) {
+        margin-bottom: 25px;
+    }
+}
+
+.manadgers-list li {
+    display: flex;
+    align-items: center;
+}
+
+.manadgers-list svg {
+    margin-right: 30px;
+}
+
+.manadgers-list p {
+    width: 300px;
+}
+
+.common-list h4 {
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2F281E;
+}
+
+.common-img {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+
+        width: 520px;
+    }
+}
