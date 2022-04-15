@@ -28,7 +28,19 @@
     color: #544837;
 
     @media screen and (min-width: 768px) {
+        margin-right: 20px;
+        width: 400px;
+    }
+
+    @media screen and (min-width: 1120px) {
         width: 486px;
+    }
+}
+
+.manadges-right-container {
+    @media screen and (min-width: 768px) {
+        margin-right: 0;
+        margin-left: 20px;
     }
 }
 
