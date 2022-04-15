@@ -25,4 +25,4 @@ module.exports=[{id:"cont1",name:"Злокачественные болезни 
 },{"../json/contraindications.json":"sV8v","../templates/contraindications.hbs":"PK9D"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/menu"),require("./js/diseases"),require("./js/contraindications"),require("./js/modal");
 },{"./sass/main.scss":"clu1","./js/menu":"i0CD","./js/diseases":"ZRk1","./js/contraindications":"dHaz","./js/modal":"RSqK"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.35555f79.js.map
+//# sourceMappingURL=/parcel-project-template/src.26f0adff.js.map
