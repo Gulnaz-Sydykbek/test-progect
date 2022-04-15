@@ -5,12 +5,17 @@
 
 .nav {
   padding: 6px 0;
+  margin-top: 20px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 60px;
   border: 1px solid red;
+
+  @media screen and (min-width: 768px) {
+    height: 78px;
+  }
 }
 
 .nav-link {
@@ -22,17 +27,21 @@
   display: none;
 
   @media screen and (min-width: 768px) {
-    padding: 0 10px;
+    padding-left: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 40px;
 
-    font-size: 30px;
-    line-height: 35px;
-    border: 2px solid #48d1cc;
-    color: #48d1cc;
+    font-family: $main-font;
+    font-size: 29px;
+    line-height: 30px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: black;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
 
