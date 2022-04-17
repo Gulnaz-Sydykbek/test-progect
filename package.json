@@ -1,22 +1,22 @@
 {
-  "name": "parcel-project-template",
+  "name": "test-progect",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://Gulnaz-Sydykbek.github.io/test-progect",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /test-progect/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Gulnaz-Sydykbek/test-progect.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Gulnaz-Sydykbek",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Gulnaz-Sydykbek/test-progect/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
