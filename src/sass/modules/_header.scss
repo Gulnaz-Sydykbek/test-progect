@@ -1,6 +1,5 @@
 .header {
   margin-bottom: 30px;
-  border-bottom: 1px solid black;
 }
 
 .nav {
@@ -10,7 +9,6 @@
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  border: 1px solid red;
 
   @media screen and (min-width: 768px) {
     height: 78px;
@@ -158,11 +156,17 @@
 }
 
 .menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   @media screen and (min-width: 768px) {
     margin-right: 20px;
-
     display: flex;
-    border: 1px solid red;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
   }
 
   @media screen and (min-width: 1110px) {
@@ -179,6 +183,13 @@
 }
 
 .menu-list a {
+  font-weight: 400;
+  font-size: 28px;
   line-height: 2;
   color: #2F281E;
+
+  @media screen and (min-width: 768px) {
+    font-weight: 400;
+    font-size: 14px;
+  }
 }

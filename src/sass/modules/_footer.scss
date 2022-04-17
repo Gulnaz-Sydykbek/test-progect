@@ -1,0 +1,136 @@
+.footer-container {
+    position: relative;
+    padding: 60px 0;
+
+    margin: 0 auto 34px;
+    display: grid;
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    list-style: none;
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: center;
+
+    color: #544837;
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 320px;
+        text-align: left;
+    }
+
+    @media screen and (min-width: 1120px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 102px 0 95px;
+        text-align: left;
+    }
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (min-width: 768px) {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+.footer-link img {
+    margin-right: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-logo {
+    font-family: $main-font;
+    font-size: 28px;
+    line-height: 29px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: #173A56;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-title {
+    margin-bottom: 35px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: #2F281E;
+}
+
+.footer-signup-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @media screen and (min-width: 768px) and (max-width: 1120px) {
+        position: absolute;
+        bottom: -5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.footer-signup-container h4 {
+    margin: 0 auto 35px;
+    width: 280px;
+
+    @media screen and (min-width: 768px) {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 1120px) {
+        margin: 0 0 35px;
+        width: 280px;
+    }
+}
+
+.footer-input {
+    margin-bottom: 21px;
+    padding-left: 15px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+
+    border-radius: 4px;
+
+    @media screen and (min-width: 768px) {
+        margin: 0 auto 21px;
+        width: 325px;
+    }
+}
+
+.footer-input::placeholder {
+    color: #BCD0E5;
+}
+
+.footer-btn {
+    margin: 0 auto;
+    width: 131px;
+    height: 39px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    @media screen and (min-width: 1120px) {
+        margin: 0;
+    }
+}
